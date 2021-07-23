@@ -11,4 +11,5 @@ index.js  中的 loop，不会影响渲染进程js和合成线程，但是会blo
 
 ### IPC：
 在 Electron3 中 使用 ipc 从 渲染进程发送大数据（16MB）到主进程会导致渲染进程js和合成线程卡住
+
 在 Electron13 中没有此问题
