@@ -1,0 +1,16 @@
+.block {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+  animation: spin 2s infinite linear;
+  margin-top: 400px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
